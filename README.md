@@ -27,4 +27,4 @@ Changing the following line in app.js will cause the test to fail
 
 Deleting the content of the allFeeds array will cause the test to fail.
 
-Loading the initial feed (feed 0) will cause the test to fail.
+Loading the same feed will cause this test to fail since it will be the same content
