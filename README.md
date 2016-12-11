@@ -6,6 +6,8 @@
  2. Unzip the repository
  3. Open the index.html with any Browser
 
+## Testing
+
 **RSS Feeds:**
 Can be tested by manipulating the all feeds array. Deleting the content of the array or deleting its attributes will cause the test to fail.
 
