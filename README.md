@@ -12,7 +12,7 @@ Can be tested by manipulating the all feeds array. Deleting the content of the a
 **The menu**
 Change the class on the body to anything than menu-hidden will cause the test to fail.
 
-Changing the following line will cause the test to fail
+Changing the following line in app.js will cause the test to fail
 
 ```js
     menuIcon.on('click', function() {
