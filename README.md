@@ -9,9 +9,11 @@
 ## Testing
 
 **RSS Feeds:**
+
 Can be tested by manipulating the all feeds array. Deleting the content of the array or deleting its attributes will cause the test to fail.
 
-**The menu**
+**The menu:**
+
 Change the class on the body to anything than menu-hidden will cause the test to fail.
 
 Changing the following line in app.js will cause the test to fail
@@ -21,7 +23,8 @@ Changing the following line in app.js will cause the test to fail
         $('body').toggleClass('menu-hidden');
     });
 ```
-**New Feed Selection**
+**New Feed Selection:**
+
 Deleting the content of the allFeeds array will cause the test to fail.
 
 Loading the initial feed (feed 0) will cause the test to fail.
